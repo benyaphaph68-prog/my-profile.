@@ -1,0 +1,82 @@
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+body {
+    background-color: #FFCCFF;
+    color: #FFDAB9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ตกแต่ง Profile Card */
+.profile-card {
+    background-color: #CCFFFF;
+    max-width: 600px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+/* ตกแต่งรูป Profile */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #CCCCFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ตกแต่งหัวข้อ */
+h1 {
+    font-size: 32px;
+    color: #CC99CC;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #9999CC;
+    margin-top: 30px;
+}
+
+/* ตกแต่งข้อความ */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.welcome {
+    font-size: 20px;
+}
+
+/* ตกแต่งรายการงานอดิเรก */
+ul {
+    text-align: left;
+    max-width: 300px;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* ตกแต่งปุ่ม */
+.button {
+    display: inline-block;
+    background-color: #FFB6C1;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hover เมื่อเอาเมาส์ไปวางบนปุ่ม */
+.button:hover {
+    background-color: #FF8FA3;
+    transform: scale(1.05);
+}
